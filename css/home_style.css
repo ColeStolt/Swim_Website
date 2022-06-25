@@ -1,0 +1,182 @@
+#menu_bar{
+    width: 99.7%;
+    height: 100px;
+    border: 3px solid black;
+    background-color: black;
+}
+
+#site_icon{
+    width: 300px;
+    height: auto;
+    float: left;
+}
+
+
+
+@keyframes hover_anim {
+  
+}
+
+hr{
+    border: 5px black dashed;
+}
+
+#table_middle{
+    background-color: rgb(142,163,188);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+}
+
+#images{
+    width: 100%;
+    border: 5px solid black;
+}
+
+#banner{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bottom{
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    width: 99.3%;
+    background-color: black;
+}
+
+#left_img{
+    width: 100%;
+    height: auto;
+
+}
+#right_img{
+    width: 100%;
+    height: auto;
+
+}
+
+#email{
+    display: inline;
+    border: 5px solid rgb(182, 203, 228);
+    padding: 0px 4px 4px 4px;
+    position: relative;
+    left: 4%;
+    color: white;
+    top: 30%;
+    font-size: x-large;
+}
+
+#center_image{
+    width: 100%;
+    height: auto;
+}
+
+#right_icon{
+    display: inline;
+    color: rgb(86,132,239);
+    position: relative;
+    top: 4%;
+    left: 30%;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(182, 203, 228);
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.media_icons{
+    width: 50px;
+    margin: 5px;
+    height: auto;
+    border: 5px solid transparent;
+    transition: border-width 0.1s linear;
+}
+
+
+#signature{
+    width: 400px;
+    height: auto;
+    display: inline;
+    position: absolute;
+    border-bottom: 2px solid black;
+}
+
+#center{
+    position: absolute;
+    display: inline;
+    left: 37%;
+    top: 30%;
+}
+
+#menu_options {
+    position: relative;
+    display: inline;
+    top: 40%;
+    left: 0%;
+    color: white;
+    list-style: none;
+}
+
+#socials{
+    float: right;
+    right: 3%;
+    position: relative;
+    top: 1%;
+    list-style: none;
+}
+
+
+#line1{
+    left: 33.3%;
+    top: 30%;
+}
+
+#line2{
+    left: 66.6%;
+    top: 30%;
+}
+
+.media_icons:hover{
+    border-bottom: 1px solid white;
+}
+
+.directions{
+    display: inline;
+    margin: 0px 1.5% 1px 1.5%;
+    font-size: x-large;
+    transition: border-width 0.1s linear;
+}
+
+.links{
+    display: inline;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.directions:hover{
+    border-bottom: 1px solid white;
+    border-bottom-width: 5px;
+    cursor: pointer;
+}
+
+.button:hover{
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+p {
+    font-size: x-large;
+}
